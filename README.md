@@ -117,11 +117,17 @@ publication archive. Expression matrices, models, accepted tree/result stores,
 and other section-specific inputs must be supplied where the original code
 requires them. Illustrator layout edits are outside this source collection.
 
+FS4B retains explicit source-identity profiles. Use `original_archive` for the
+original frozen result store, and `released_rebuild` for results from the copied
+worker source. Editing a worker string, including its local paths, changes its
+source hash. Derive the exact expected fingerprints from the reviewed configured
+source while retaining the strict assertions.
+
 ## Candidate-analysis data package
 
-A data archive has been prepared for the planned `v1.0.0` Release:
+The candidate-analysis data archive is available in the `v1.0.0` Release:
 [fig4_candidate_inputs.zip](https://github.com/MingCen-WestChina/Integration-E9-P28-SGN/releases/download/v1.0.0/fig4_candidate_inputs.zip).
-This link becomes available when the Release and attachment are published.
+The published asset retains the verified original ZIP bytes.
 
 It contains the original, unchanged files:
 
